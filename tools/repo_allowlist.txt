@@ -1,0 +1,156 @@
+# repo_allowlist.txt
+#
+# 白名單：只有列在這裡的檔案會被複製進 GitHub repo。
+# 格式：<目的地目錄> <來源 glob>
+# 以 # 開頭為註解。來源 glob 相對於 chupa 專案根目錄。
+#
+# 原則：只列「你自己寫的程式」與「你自己量到的數據」。
+# 任何 .pkl / .npz / .ckpt / .obj / .glb / 模型權重 / 第三方程式碼都不要列。
+#
+# 【不可列入】setup.py —— 經確認為 Chupa 自己的安裝腳本（第三方，無授權）
+# 【不可列入】scripts/chupa.py 及 src/ 下 Chupa 原始碼
+
+# ---------- 核心函式庫（蒙皮、驅動） ----------
+src/core          chupa_reskin.py
+src/core          romp_to_chupa_realtime.py
+
+# ---------- 即時系統 ----------
+src/realtime      gradio_realtime_romp_chupa.py
+src/realtime      chupa_server.py
+src/realtime      replay_app.py
+src/realtime      drive_avatar.py
+
+# ---------- 體型參數 ----------
+src/body_shape    fit_betas_from_measurements.py
+src/body_shape    make_subject_from_measurements.py
+src/body_shape    make_shape_variant_pkls.py
+src/body_shape    make_extreme_shape_pkls.py
+src/body_shape    make_user_subject_pkl.py
+src/body_shape    make_apose_params_emily.py
+src/body_shape    build_shape_library.py
+src/body_shape    build_shape_assets.py
+src/body_shape    build_user_subject.py
+src/body_shape    smpl_betas_to_smplx.py
+src/body_shape    explore_gender_betas.py
+src/body_shape    check_betas.py
+src/body_shape    check10.py
+
+# ---------- 蒙皮權重轉移與比較 ----------
+src/skinning      transfer_chupa_skinning_weights*.py
+src/skinning      export_source_smplx.py
+src/skinning      export_chupa_source_smplx.py
+src/skinning      export_chupa_source_smplx_v2.py
+src/skinning      convert_smplx_weights_to_smpl_weights.py
+src/skinning      inspect_chupa_bind_pose.py
+src/skinning      compare_skinning_methods.py
+src/skinning      compare_m1_m2_on_apose.py
+src/skinning      diagnose_m4.py
+
+# ---------- 外觀生成（貼圖） ----------
+src/appearance    uv_texture_bake.py
+src/appearance    build_asset.py
+src/appearance    measure_view_configs.py
+
+# ---------- 批次實驗與參數掃描 ----------
+src/experiments   batch_text_ablation.py
+src/experiments   batch_outfit_cases.py
+src/experiments   batch_texture_cases.py
+src/experiments   run_ablations.py
+src/experiments   run_c4_ablation.py
+src/experiments   run_factor_sweep.py
+src/experiments   run_laplacian_sweep.py
+src/experiments   run_temporal_eval.py
+src/experiments   gen_extra_prompts.py
+src/experiments   add_fourth_prompt.py
+src/experiments   seed_outfit.py
+
+# ---------- 量測與效能評估（第四章數據來源） ----------
+src/evaluation    measure_roughness.py
+src/evaluation    measure_girth.py
+src/evaluation    measure_concurrency.py
+src/evaluation    measure_swap.py
+src/evaluation    profile_pipeline.py
+
+# ---------- 流程編排 ----------
+src/pipeline      run_pipeline.py
+src/pipeline      outfit_pipeline.py
+src/pipeline      run_romp_batch.py
+src/pipeline      prep_romp_motion.py
+src/pipeline      export_smpl_from_romp_npz.py
+
+# ---------- 驅動與渲染 ----------
+src/driving       drive_img4640_emily.py
+src/driving       drive_shape_variants.py
+src/driving       video_romp_chupa.py
+src/driving       make_driving_video.py
+
+# ---------- 論文圖表繪製 ----------
+src/figures       render_shape_comparison.py
+src/figures       render_outfit_cases.py
+src/figures       build_outfit_change_figure.py
+src/figures       render_figures.py
+src/figures       render_overlay.py
+src/figures       make_ablation_figures.py
+src/figures       make_outfit_grid.py
+src/figures       make_demo_figures.py
+src/figures       make_turntable.py
+src/figures       make_demo.py
+src/figures       make_fig45.py
+src/figures       make_fig47.py
+src/figures       make_fig48.py
+src/figures       make_fig413.py
+src/figures       make_fig414.py
+
+# ---------- 實驗數據（純數值，安全） ----------
+data/results      batch_ablation_index.csv
+data/results      texture_cases_index.csv
+data/results      outfit_cases_index.csv
+data/results      shape_library_index.json
+data/results      extreme_shape_index.json
+data/results      skinning_comparison/metrics.json
+data/results      shape_library_betas.csv
+
+# ---------- 工具（整理 repo 用，連同自己一起發布）----------
+tools             export_betas_csv.py
+tools             assemble_repo.py
+tools             audit_repo.py
+tools             repo_allowlist.txt
+
+# ---------- 論文 ----------
+thesis            thesis_full.md
+thesis            assemble_thesis.py
+
+
+# ============================================================
+# legacy：已被取代的實作路線。
+# 這些是你自己寫的，可以發布，但論文的最終方法沒有採用它們。
+# 若想保留開發軌跡，把下面的 # 拿掉即可。
+# ============================================================
+
+# --- Blender 骨架綁定路線（最終改為 Python 直接做 LBS）---
+# src/legacy/blender    create_chupa_mesh_with_vertex_groups.py
+# src/legacy/blender    create_chupa_smplx_armature_stage2.py
+# src/legacy/blender    create_chupa_smplx_armature_stage3_fit_bounds.py
+# src/legacy/blender    repair_blender_arm_weights_by_geometry.py
+# src/legacy/blender    repair_blender_arm_weights_stage2.py
+# src/legacy/blender    repair_blender_weights_by_bone_distance.py
+# src/legacy/blender    repair_blender_weights_geo_stage3_narrow.py
+# src/legacy/blender    import_proxy_clothes_blender.py
+# src/legacy/blender    export_smpl_proxy_clothes_from_romp.py
+
+# --- 早期 ROMP 套用方式（已由 romp_to_chupa_realtime.py 取代）---
+# src/legacy/romp       apply_romp_pose_to_chupa.py
+# src/legacy/romp       apply_romp_smpl_pose_to_chupa.py
+# src/legacy/romp       apply_romp_displacement_to_chupa.py
+
+
+# ============================================================
+# 不收錄：一次性的除錯與試驗腳本，對讀者沒有價值。
+# 判斷錯了的話把下面任一行搬到上面對應區段即可。
+#
+#   check_pairing.py          check_skirt.py
+#   find_fig49.py             dectlaplacian.py
+#   test_bend_left_elbow.py   test_bend_left_elbow_v2.py
+#
+# 另：setup.py 為 Chupa 第三方安裝腳本，絕不可列入。
+# ============================================================

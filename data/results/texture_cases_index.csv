@@ -1,0 +1,10 @@
+﻿no,subject,kind_short,prompt,work,upper_color,lower_color,coverage,minutes,status
+1,rp_lib_155_46_001,white_tshirt,a woman wearing a white t-shirt and blue jeans,demo_work/case1_white_tshirt,white,blue,52.2,2.5,OK
+2,rp_lib_155_53_001,red_hoodie,a woman wearing a red hoodie and black long pants,demo_work/case2_red_hoodie,red,black,52.6,2.3,OK
+3,rp_lib_155_65_001,yellow_tank,a woman wearing a yellow tank top and gray shorts,demo_work/case3_yellow_tank,yellow,gray,54.5,2.4,OK
+4,rp_lib_165_52_001,blue_blazer,a woman wearing a blue blazer and white long pants,demo_work/case4_blue_blazer,blue,white,57.5,2.6,OK
+5,rp_lib_165_60_001,green_dress,a woman wearing a green long dress,demo_work/case5_green_dress,green,green,55.3,2.3,OK
+6,rp_lib_165_74_001,brown_coat,a woman wearing a brown long coat and black long pants,demo_work/case6_brown_coat,brown,black,57.7,2.4,OK
+7,rp_lib_175_58_001,pink_blouse,a woman wearing a pink blouse and a black skirt,demo_work/case7_pink_blouse,pink,black,57.4,2.2,OK
+8,rp_lib_175_67_001,purple_shirt,a woman wearing a purple long-sleeve shirt and gray long pants,demo_work/case8_purple_shirt,purple,gray,54.6,2.5,OK
+9,rp_lib_175_83_001,orange_puffer,a woman wearing an orange puffer jacket and blue jeans,demo_work/case9_orange_puffer,orange,blue,55.7,2.4,OK

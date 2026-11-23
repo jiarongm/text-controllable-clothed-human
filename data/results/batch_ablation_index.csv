@@ -1,0 +1,43 @@
+category,prompt,seed,stage1_file,type_correct
+上衣_袖長,a person wearing a t-shirt,42,stage1_text_a_person_wearing_a_t-shirt_seed42_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a t-shirt,7,stage1_text_a_person_wearing_a_t-shirt_seed7_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a t-shirt,123,stage1_text_a_person_wearing_a_t-shirt_seed123_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a long-sleeve shirt,42,stage1_text_a_person_wearing_a_long-sleeve_shirt_seed42_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a long-sleeve shirt,7,stage1_text_a_person_wearing_a_long-sleeve_shirt_seed7_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a long-sleeve shirt,123,stage1_text_a_person_wearing_a_long-sleeve_shirt_seed123_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a tank top,42,stage1_text_a_person_wearing_a_tank_top_seed42_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a tank top,7,stage1_text_a_person_wearing_a_tank_top_seed7_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a tank top,123,stage1_text_a_person_wearing_a_tank_top_seed123_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a hooded sweatshirt,42,stage1_text_a_person_wearing_a_hooded_sweatshirt_seed42_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a hooded sweatshirt,7,stage1_text_a_person_wearing_a_hooded_sweatshirt_seed7_cfg7.5_nres0.png,1
+上衣_袖長,a person wearing a hooded sweatshirt,123,stage1_text_a_person_wearing_a_hooded_sweatshirt_seed123_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing shorts,42,stage1_text_a_person_wearing_shorts_seed42_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing shorts,7,stage1_text_a_person_wearing_shorts_seed7_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing shorts,123,stage1_text_a_person_wearing_shorts_seed123_cfg7.5_nres0.png,0
+褲�?_?�短,a person wearing long pants,42,stage1_text_a_person_wearing_long_pants_seed42_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing long pants,7,stage1_text_a_person_wearing_long_pants_seed7_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing long pants,123,stage1_text_a_person_wearing_long_pants_seed123_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing jeans,42,stage1_text_a_person_wearing_jeans_seed42_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing jeans,7,stage1_text_a_person_wearing_jeans_seed7_cfg7.5_nres0.png,1
+褲�?_?�短,a person wearing jeans,123,stage1_text_a_person_wearing_jeans_seed123_cfg7.5_nres0.png,1
+裙�?_??��,a woman wearing a long dress,42,MISSING,
+裙�?_??��,a woman wearing a long dress,7,stage1_text_a_woman_wearing_a_long_dress_seed7_cfg7.5_nres0.png,1
+裙�?_??��,a woman wearing a long dress,123,stage1_text_a_woman_wearing_a_long_dress_seed123_cfg7.5_nres0.png,0
+裙�?_??��,a woman wearing a short dress,42,stage1_text_a_woman_wearing_a_short_dress_seed42_cfg7.5_nres0.png,1
+裙�?_??��,a woman wearing a short dress,7,stage1_text_a_woman_wearing_a_short_dress_seed7_cfg7.5_nres0.png,1
+裙�?_??��,a woman wearing a short dress,123,stage1_text_a_woman_wearing_a_short_dress_seed123_cfg7.5_nres0.png,1
+裙�?_??��,a woman wearing a summer dress,42,stage1_text_a_woman_wearing_a_summer_dress_seed42_cfg7.5_nres0.png,1
+裙�?_??��,a woman wearing a summer dress,7,stage1_text_a_woman_wearing_a_summer_dress_seed7_cfg7.5_nres0.png,1
+裙�?_??��,a woman wearing a summer dress,123,stage1_text_a_woman_wearing_a_summer_dress_seed123_cfg7.5_nres0.png,1
+寬�?_組�?,a person wearing a long coat,42,stage1_text_a_person_wearing_a_long_coat_seed42_cfg7.5_nres0.png,1
+寬�?_組�?,a person wearing a long coat,7,stage1_text_a_person_wearing_a_long_coat_seed7_cfg7.5_nres0.png,1
+寬�?_組�?,a person wearing a long coat,123,stage1_text_a_person_wearing_a_long_coat_seed123_cfg7.5_nres0.png,1
+寬�?_組�?,a woman wearing a skirt,42,stage1_text_a_woman_wearing_a_skirt_seed42_cfg7.5_nres0.png,1
+寬�?_組�?,a woman wearing a skirt,7,stage1_text_a_woman_wearing_a_skirt_seed7_cfg7.5_nres0.png,1
+寬�?_組�?,a woman wearing a skirt,123,stage1_text_a_woman_wearing_a_skirt_seed123_cfg7.5_nres0.png,1
+寬�?_組�?,a person wearing a puffer jacket,42,stage1_text_a_person_wearing_a_puffer_jacket_seed42_cfg7.5_nres0.png,1
+寬�?_組�?,a person wearing a puffer jacket,7,stage1_text_a_person_wearing_a_puffer_jacket_seed7_cfg7.5_nres0.png,1
+寬�?_組�?,a person wearing a puffer jacket,123,stage1_text_a_person_wearing_a_puffer_jacket_seed123_cfg7.5_nres0.png,1
+寬�?_組�?,a woman wearing a blouse and a skirt,42,stage1_text_a_woman_wearing_a_blouse_and_a_skirt_seed42_cfg7.5_nres0.png,0
+寬�?_組�?,a woman wearing a blouse and a skirt,7,stage1_text_a_woman_wearing_a_blouse_and_a_skirt_seed7_cfg7.5_nres0.png,1
+寬�?_組�?,a woman wearing a blouse and a skirt,123,stage1_text_a_woman_wearing_a_blouse_and_a_skirt_seed123_cfg7.5_nres0.png,1

@@ -1,0 +1,46 @@
+{
+  "M1_nearest": {
+    "adjacency_conflict": 0.03205776579006518,
+    "selfcontact_leakage": 0.16892778993435448,
+    "driven_roughness": 0.09879427873884146,
+    "local_tearing": {
+      "region_edges": 1772,
+      "disp_discontinuity_mean": 0.0005314540467225015,
+      "disp_discontinuity_p95": 3.6785632460123384e-06,
+      "disp_discontinuity_max": 0.06994003802537918
+    }
+  },
+  "M2_knn_gaussian": {
+    "adjacency_conflict": 0.026831872330860866,
+    "selfcontact_leakage": 0.13117283950617284,
+    "driven_roughness": 0.06948560104462434,
+    "local_tearing": {
+      "region_edges": 1772,
+      "disp_discontinuity_mean": 0.00028828700305894017,
+      "disp_discontinuity_p95": 0.00238167206989601,
+      "disp_discontinuity_max": 0.007111492566764355
+    }
+  },
+  "M3_barycentric": {
+    "adjacency_conflict": 0.027136247845957893,
+    "selfcontact_leakage": 0.14835164835164835,
+    "driven_roughness": 0.0870887015919518,
+    "local_tearing": {
+      "region_edges": 1772,
+      "disp_discontinuity_mean": 0.00046994865988381207,
+      "disp_discontinuity_p95": 6.192855653353031e-06,
+      "disp_discontinuity_max": 0.02890761010348797
+    }
+  },
+  "M4_bodypart": {
+    "adjacency_conflict": 0.034455308308983294,
+    "selfcontact_leakage": 0.14412811387900357,
+    "driven_roughness": 0.10720128641831637,
+    "local_tearing": {
+      "region_edges": 1772,
+      "disp_discontinuity_mean": 0.0004952442832291126,
+      "disp_discontinuity_p95": 3.611130068748014e-06,
+      "disp_discontinuity_max": 0.06892500072717667
+    }
+  }
+}

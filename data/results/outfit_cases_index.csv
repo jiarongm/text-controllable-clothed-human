@@ -1,0 +1,10 @@
+no,height_cm,weight_kg,subject,kind,prompt,mesh,minutes,status
+1,155,46,rp_lib_155_46_001,T 恤＋牛仔褲,a woman wearing a white t-shirt and blue jeans,results/renderpeople/20261117-135333/rp_lib_155_46_001/a_woman_wearing_a_white_t-shirt_and_blue_jeans_0042/mesh_refine.obj,9.5,OK
+2,155,53,rp_lib_155_53_001,連帽衫＋長褲,a woman wearing a red hoodie and black long pants,results/renderpeople/20261117-140258/rp_lib_155_53_001/a_woman_wearing_a_red_hoodie_and_black_long_pants_0042/mesh_refine.obj,9.4,OK
+3,155,65,rp_lib_155_65_001,背心＋短褲,a woman wearing a yellow tank top and gray shorts,results/renderpeople/20261117-141225/rp_lib_155_65_001/a_woman_wearing_a_yellow_tank_top_and_gray_shorts_0042/mesh_refine.obj,9.5,OK
+4,165,52,rp_lib_165_52_001,西裝外套＋長褲,a woman wearing a blue blazer and white long pants,results/renderpeople/20261117-142157/rp_lib_165_52_001/a_woman_wearing_a_blue_blazer_and_white_long_pants_0042/mesh_refine.obj,9.3,OK
+5,165,60,rp_lib_165_60_001,連身長裙,a woman wearing a green long dress,results/renderpeople/20261117-143117/rp_lib_165_60_001/a_woman_wearing_a_green_long_dress_0042/mesh_refine.obj,9.3,OK
+6,165,74,rp_lib_165_74_001,長大衣＋長褲,a woman wearing a brown long coat and black long pants,results/renderpeople/20261117-144035/rp_lib_165_74_001/a_woman_wearing_a_brown_long_coat_and_black_long_pants_0042/mesh_refine.obj,9.4,OK
+7,175,58,rp_lib_175_58_001,女用襯衫＋裙,a woman wearing a pink blouse and a black skirt,results/renderpeople/20261117-144958/rp_lib_175_58_001/a_woman_wearing_a_pink_blouse_and_a_black_skirt_0042/mesh_refine.obj,9.3,OK
+8,175,67,rp_lib_175_67_001,長袖襯衫＋長褲,a woman wearing a purple long-sleeve shirt and gray long pants,results/renderpeople/20261117-145917/rp_lib_175_67_001/a_woman_wearing_a_purple_long-sleeve_shirt_and_gray_long_pants_0042/mesh_refine.obj,9.4,OK
+9,175,83,rp_lib_175_83_001,羽絨外套＋牛仔褲,a woman wearing an orange puffer jacket and blue jeans,results/renderpeople/20261117-150836/rp_lib_175_83_001/a_woman_wearing_an_orange_puffer_jacket_and_blue_jeans_0042/mesh_refine.obj,9.3,OK

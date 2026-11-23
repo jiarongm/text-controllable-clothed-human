@@ -1,0 +1,84 @@
+# .gitignore
+#
+# 第三道防線：即使不小心把檔案複製進 repo 目錄，git 也不會追蹤它。
+#
+# 【重要】目錄模式一律加前導斜線（/results/ 而非 results/）。
+# 沒有斜線的模式會匹配任何層級，例如 results/ 會連 data/results/ 一起擋掉，
+# 而且父目錄被排除後，裡面的檔案無法再用 ! 重新納入。
+#
+# .gitignore 只擋「尚未被追蹤」的檔案。
+# 已經 commit 過的要用 git rm --cached 才會移除。
+
+# ---------- 模型權重與參數（SMPL / SMPL-X / Chupa / SD / ControlNet）----------
+*.pkl
+*.npz
+*.npy
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.bin
+/checkpoints/
+/smpl_related/
+*SMPLX_*
+*SMPL_*
+
+# ---------- 第三方資料集 ----------
+/data/renderpeople/
+/data/thuman/
+*renderpeople*
+*thuman*
+
+# ---------- 生成網格與貼圖輸出（由第三方模型與資料集衍生）----------
+*.obj
+*.ply
+*.glb
+*.gltf
+*.fbx
+*.stl
+*.mtl
+/results/
+/demo_work/
+/debug_ablation/
+/debug_text_stage/
+/shape_assets/
+/animation_data*/
+/*_driven/
+
+# ---------- 影片與影像素材（授權與肖像權）----------
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# ---------- 論文 PDF 與第三方軟體 ----------
+*.pdf
+/papers/
+*.exe
+*.dll
+*.so
+*.dmg
+*.msi
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ---------- 論文全文（定稿後再納入）----------
+/thesis/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+/env/
+*.egg-info/
+
+# ---------- 其他 ----------
+.DS_Store
+Thumbs.db
+*.log
+nohup.out
+.ipynb_checkpoints/

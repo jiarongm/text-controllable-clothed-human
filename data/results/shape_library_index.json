@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "rp_lib_155_46_001",
+    "height_cm": 155,
+    "weight_kg": 46
+  },
+  {
+    "subject": "rp_lib_155_53_001",
+    "height_cm": 155,
+    "weight_kg": 53
+  },
+  {
+    "subject": "rp_lib_155_65_001",
+    "height_cm": 155,
+    "weight_kg": 65
+  },
+  {
+    "subject": "rp_lib_165_52_001",
+    "height_cm": 165,
+    "weight_kg": 52
+  },
+  {
+    "subject": "rp_lib_165_60_001",
+    "height_cm": 165,
+    "weight_kg": 60
+  },
+  {
+    "subject": "rp_lib_165_74_001",
+    "height_cm": 165,
+    "weight_kg": 74
+  },
+  {
+    "subject": "rp_lib_175_58_001",
+    "height_cm": 175,
+    "weight_kg": 58
+  },
+  {
+    "subject": "rp_lib_175_67_001",
+    "height_cm": 175,
+    "weight_kg": 67
+  },
+  {
+    "subject": "rp_lib_175_83_001",
+    "height_cm": 175,
+    "weight_kg": 83
+  }
+]
